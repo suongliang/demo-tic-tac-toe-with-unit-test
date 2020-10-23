@@ -1,0 +1,42 @@
+.tic-tac-board{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tic-tac-row, .tic-tac-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.tic-tac-row{
+  width: 13rem;
+  flex-wrap: wrap;
+}
+
+.tic-tac-row .box{
+  border: 1px solid black;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+  position: relative;
+}
+.tic-tac-row .game-begin{
+  background-color: aliceblue;
+}
+.tic-tac-row .box .mark{
+  z-index: -1;
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.my-3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
